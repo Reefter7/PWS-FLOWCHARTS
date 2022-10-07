@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-07T07:35:29.168Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="RrZZdESp4WmPkPDhilkd" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-07T07:41:08.983Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="6-30C4TQHp_4lxGKL8o7" version="20.4.0" type="github">
   <diagram id="BVfkQb9ecDEO83bugk_k" name="Page-1">
     <mxGraphModel dx="1822" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6,6 +6,21 @@
         <mxCell id="1" parent="0" />
         <mxCell id="hINtNlw1vlNAkVPnNgzF-1" value="Start&lt;br&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-160" y="160" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hINtNlw1vlNAkVPnNgzF-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hINtNlw1vlNAkVPnNgzF-2" target="hINtNlw1vlNAkVPnNgzF-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hINtNlw1vlNAkVPnNgzF-2" value="&lt;i style=&quot;font-weight: bold;&quot;&gt;elementData&lt;br&gt;&lt;/i&gt;Array: [position, elementType]&lt;br&gt;&lt;b style=&quot;font-style: italic;&quot;&gt;&lt;br&gt;bondData&lt;/b&gt;&lt;br&gt;Array: [from, to, bondType]" style="shape=internalStorage;whiteSpace=wrap;html=1;dx=15;dy=15;rounded=1;arcSize=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="270" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hINtNlw1vlNAkVPnNgzF-4" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="950" y="160" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hINtNlw1vlNAkVPnNgzF-5" value="Store" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.merge_or_storage;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="952.5" y="240" width="95" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hINtNlw1vlNAkVPnNgzF-7" value="&lt;b style=&quot;font-style: italic;&quot;&gt;funcGroups&lt;/b&gt;&lt;br&gt;Array" style="shape=internalStorage;whiteSpace=wrap;html=1;dx=15;dy=15;rounded=1;arcSize=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="380" y="340" width="420" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
