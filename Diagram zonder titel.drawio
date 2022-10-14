@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-14T09:20:41.617Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="yUzKRT0goYEDPz8p3Kil" version="20.4.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-14T09:23:00.440Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="w5bM_d5NqSFfC2DX-_Du" version="20.4.1" type="github" pages="2">
   <diagram id="BVfkQb9ecDEO83bugk_k" name="Main">
     <mxGraphModel dx="2220" dy="2034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -397,11 +397,17 @@
         <mxCell id="1KsUKZxkhIDyHVKwTlI0-1" value="&lt;b&gt;for &lt;/b&gt;&lt;i&gt;bond&lt;/i&gt;&lt;br&gt;&lt;b&gt;of &lt;/b&gt;&lt;i style=&quot;&quot;&gt;bonds&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1210" y="-714" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="XzVLuU8OsaSNBH-HEr9t-2" value="true" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1KsUKZxkhIDyHVKwTlI0-3" target="XzVLuU8OsaSNBH-HEr9t-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="1KsUKZxkhIDyHVKwTlI0-3" value="&lt;i&gt;mappedEls&lt;/i&gt;&lt;br&gt;&lt;b&gt;.include&lt;/b&gt;&lt;br&gt;(&lt;i&gt;bond[1]&lt;/i&gt;)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1190" y="-639" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_avrX_X6yZaFhVirjWv8-2" value="&lt;i&gt;mappedEls&lt;/i&gt;&lt;br&gt;&lt;u style=&quot;&quot;&gt;[]&lt;/u&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="300" y="250" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XzVLuU8OsaSNBH-HEr9t-1" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="-510" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -420,7 +426,7 @@
         <mxCell id="uKfmKkdte2o3hFqyXUfe-1" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;rotation=-180;textDirection=ltr;horizontal=1;direction=east;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="210" y="-1160" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uKfmKkdte2o3hFqyXUfe-2" value="Loop-End:&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;default:&amp;nbsp;&lt;i&gt;continue&lt;/i&gt;, specified: &lt;i&gt;break&lt;/i&gt;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="uKfmKkdte2o3hFqyXUfe-2" value="Loop-End:&lt;br&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Sometimes specified: &lt;i&gt;continue / break&lt;/i&gt;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="210" y="-1010" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uKfmKkdte2o3hFqyXUfe-3" value="Loop: &lt;span style=&quot;font-weight: 400;&quot;&gt;The top specifies what function to use to loop&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
