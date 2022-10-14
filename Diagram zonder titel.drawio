@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-14T09:16:45.530Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="z21UrGXpoOa2K11Ts63E" version="20.4.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-14T09:18:41.066Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="zQdgL6VuLunHd5S0-DfR" version="20.4.1" type="github" pages="2">
   <diagram id="BVfkQb9ecDEO83bugk_k" name="Main">
-    <mxGraphModel dx="2222" dy="2105" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2220" dy="2034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -397,7 +397,7 @@
         <mxCell id="1KsUKZxkhIDyHVKwTlI0-1" value="&lt;b&gt;for &lt;/b&gt;&lt;i&gt;bond&lt;/i&gt;&lt;br&gt;&lt;b&gt;of &lt;/b&gt;&lt;i style=&quot;&quot;&gt;bonds&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1210" y="-714" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1KsUKZxkhIDyHVKwTlI0-3" value="&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="1KsUKZxkhIDyHVKwTlI0-3" value="&lt;i&gt;mappedEls&lt;/i&gt;&lt;br&gt;&lt;b&gt;.include&lt;/b&gt;&lt;br&gt;(&lt;i&gt;bond[1]&lt;/i&gt;)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1190" y="-639" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_avrX_X6yZaFhVirjWv8-2" value="&lt;i&gt;mappedEls&lt;/i&gt;&lt;br&gt;&lt;u style=&quot;&quot;&gt;[]&lt;/u&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;" vertex="1" parent="1">
@@ -407,12 +407,24 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yF1_73bFFV4LqRIZln7e" name="Legenda">
-    <mxGraphModel dx="1497" dy="2005" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1420" dy="2003" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Lm6RIKJBBZhos9vdc813-1" value="&lt;b&gt;&amp;nbsp; Storage: &lt;/b&gt;Used for data that &lt;br&gt;&amp;nbsp; &amp;nbsp; is only read by the program&amp;nbsp;" style="shape=internalStorage;whiteSpace=wrap;html=1;dx=15;dy=15;rounded=1;arcSize=8;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="10" y="-1160" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="uKfmKkdte2o3hFqyXUfe-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uKfmKkdte2o3hFqyXUfe-1" target="uKfmKkdte2o3hFqyXUfe-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uKfmKkdte2o3hFqyXUfe-1" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;rotation=-180;textDirection=ltr;horizontal=1;direction=east;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="210" y="-1160" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uKfmKkdte2o3hFqyXUfe-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="210" y="-1010" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uKfmKkdte2o3hFqyXUfe-3" value="&lt;i style=&quot;font-weight: normal;&quot;&gt;bondData&lt;/i&gt;&lt;br&gt;&lt;span&gt;forEach&lt;/span&gt;&lt;br&gt;&lt;i style=&quot;font-weight: normal;&quot;&gt;bond&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="230" y="-1145" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
